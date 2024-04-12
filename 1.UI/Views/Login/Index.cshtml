@@ -1,0 +1,33 @@
+@model SquadManager.Models.UserViewModel
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+
+<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<section class="container text-center mt-5">
+    <div class="card p-4 shadow" style="max-width: 400px; margin: 0 auto;">
+        <h1 class="mb-4">Autenticação</h1>
+
+        <form>
+            <div class="mb-3">
+                <input type="text" required id="email" name="email" class="form-control" placeholder="Username/Email" value="@Model.Email" />
+            </div>
+            <div class="mb-3">
+                <input type="password" required id="password" name="password" class="form-control" placeholder="Senha" value="@Model.Password" />
+            </div>
+            <div class="mb-3 text-end">
+                <a href="#" class="text-decoration-none">Esqueceu a Senha?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+        </form>
+
+        <p class="mt-3">Não tem conta? <a href="/Login/SignUp" class="create-account">Crie aqui</a></p>
+    </div>
+</section>
+
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/js/login.js"></script>

@@ -1,0 +1,30 @@
+@model SquadManager.Models.UserViewModel
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Criar Conta";
+}
+<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<section class="container text-center mt-5">
+    <div class="card p-4 shadow">
+        <h1 class="mb-4">Crie Sua Conta Gratuitamente!</h1>
+
+        <form>
+            <div class="mb-3">
+                <input type="text" required id="username" name="username" class="form-control" placeholder="Username" />
+            </div>
+            <div class="mb-3">
+                <input type="email" required id="email" name="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="mb-3">
+                <input type="password" required id="senha" name="senha" class="form-control" placeholder="Senha" />
+            </div>
+            <div class="mb-3">
+                <input type="password" required id="confirma-senha" name="confirma-senha" class="form-control" placeholder="Confirme a Senha" />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg">Criar</button>
+        </form>
+    </div>
+</section>

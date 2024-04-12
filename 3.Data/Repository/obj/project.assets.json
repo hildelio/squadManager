@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../../2.Application/Common/Common.csproj",
+      "msbuildProject": "../../2.Application/Common/Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/hildelio/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj",
+      "projectName": "Repository",
+      "projectPath": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj",
+      "packagesPath": "/home/hildelio/.nuget/packages/",
+      "outputPath": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/hildelio/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj": {
+              "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/hildelio/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

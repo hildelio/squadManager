@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hildelio/projetosPessoais/SquadManager/1.UI/SquadManager.csproj": {}
+  },
+  "projects": {
+    "/home/hildelio/projetosPessoais/SquadManager/1.UI/SquadManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hildelio/projetosPessoais/SquadManager/1.UI/SquadManager.csproj",
+        "projectName": "SquadManager",
+        "projectPath": "/home/hildelio/projetosPessoais/SquadManager/1.UI/SquadManager.csproj",
+        "packagesPath": "/home/hildelio/.nuget/packages/",
+        "outputPath": "/home/hildelio/projetosPessoais/SquadManager/1.UI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hildelio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/API.csproj": {
+                "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/API.csproj"
+              },
+              "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj": {
+                "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/hildelio/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/API.csproj",
+        "packagesPath": "/home/hildelio/.nuget/packages/",
+        "outputPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hildelio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj": {
+                "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj"
+              },
+              "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj": {
+                "projectPath": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/hildelio/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj",
+        "projectName": "Common",
+        "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj",
+        "packagesPath": "/home/hildelio/.nuget/packages/",
+        "outputPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hildelio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/hildelio/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/Repository.csproj",
+        "packagesPath": "/home/hildelio/.nuget/packages/",
+        "outputPath": "/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hildelio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj": {
+                "projectPath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/hildelio/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
