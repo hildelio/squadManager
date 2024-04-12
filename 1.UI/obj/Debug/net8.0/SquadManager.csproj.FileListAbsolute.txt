@@ -82,3 +82,4 @@
 /home/hildelio/projetosPessoais/SquadManager/1.UI/obj/Debug/net8.0/SquadManager.genruntimeconfig.cache
 /home/hildelio/projetosPessoais/SquadManager/1.UI/obj/Debug/net8.0/ref/SquadManager.dll
 /home/hildelio/projetosPessoais/SquadManager/1.UI/bin/Debug/net8.0/API.xml
+/home/hildelio/projetosPessoais/SquadManager/1.UI/obj/Debug/net8.0/SquadManager.sourcelink.json

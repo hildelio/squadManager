@@ -4,7 +4,7 @@
         <name>API</name>
     </assembly>
     <members>
-        <member name="M:API.Controllers.UserController.Login(Common.UserModel)">
+        <member name="M:API.Controllers.UserController.Login(Common.UserLoginModel)">
             <summary>
             Autentica o usuário
             </summary>

@@ -13,3 +13,4 @@
 /home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/obj/Debug/net8.0/refint/Repository.dll
 /home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/obj/Debug/net8.0/Repository.pdb
 /home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/obj/Debug/net8.0/ref/Repository.dll
+/home/hildelio/projetosPessoais/SquadManager/3.Data/Repository/obj/Debug/net8.0/Repository.sourcelink.json

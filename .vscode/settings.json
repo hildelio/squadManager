@@ -1,6 +1,7 @@
 {
   "cSpell.words": [
     "Adiciona",
+    "apenas",
     "ASPNETCORE",
     "Autentica",
     "autenticado",
@@ -8,15 +9,21 @@
     "Configura",
     "Configuração",
     "configurar",
+    "confirma",
+    "Construtor",
     "contêiner",
+    "criar",
     "dependência",
+    "detalhes",
     "documentação",
     "Enviado",
+    "Exibe",
     "Habilita",
     "incluir",
     "injeção",
     "mais",
     "Mapear",
+    "modelo",
     "obrigatória",
     "obrigatório",
     "Redireciona",
@@ -26,6 +33,7 @@
     "Senha",
     "serviços",
     "sobre",
-    "sucesso"
+    "sucesso",
+    "todos"
   ]
 }

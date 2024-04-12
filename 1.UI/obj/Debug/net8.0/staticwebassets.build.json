@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yvnWw0fDdVuW6b2Jl/8HTbwPmDMk2foovqSBOj9uI/I=",
+  "Hash": "czUZuQnLJWyhUGu2JSX+P0CVskAgj+jny8/U+njFDQg=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -86,25 +86,6 @@
       "OriginalItemSpec": "wwwroot/css/login.css"
     },
     {
-      "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/css/site.css",
-      "SourceId": "SquadManager",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/",
-      "BasePath": "_content/SquadManager",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
-    },
-    {
       "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/favicon.ico",
       "SourceId": "SquadManager",
       "SourceType": "Discovered",
@@ -143,12 +124,12 @@
       "OriginalItemSpec": "wwwroot/js/login.js"
     },
     {
-      "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/site.js",
+      "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/signUp.js",
       "SourceId": "SquadManager",
       "SourceType": "Discovered",
       "ContentRoot": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/",
       "BasePath": "_content/SquadManager",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/signUp.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -159,7 +140,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot/js/signUp.js"
     },
     {
       "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",

@@ -9,3 +9,4 @@
 /home/hildelio/projetosPessoais/SquadManager/2.Application/Common/obj/Debug/net8.0/refint/Common.dll
 /home/hildelio/projetosPessoais/SquadManager/2.Application/Common/obj/Debug/net8.0/Common.pdb
 /home/hildelio/projetosPessoais/SquadManager/2.Application/Common/obj/Debug/net8.0/ref/Common.dll
+/home/hildelio/projetosPessoais/SquadManager/2.Application/Common/obj/Debug/net8.0/Common.sourcelink.json

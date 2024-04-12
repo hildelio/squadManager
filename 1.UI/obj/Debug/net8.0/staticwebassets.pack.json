@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets/css/login.css"
     },
     {
-      "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
-    },
-    {
       "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
@@ -21,8 +17,8 @@
       "PackagePath": "staticwebassets/js/login.js"
     },
     {
-      "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/signUp.js",
+      "PackagePath": "staticwebassets/js/signUp.js"
     },
     {
       "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/lib/bootstrap/LICENSE",

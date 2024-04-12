@@ -14,12 +14,21 @@ namespace API.Controllers
         /// <param name="user">Email e Senha do usuário</param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Login(UserModel user)
+        public IActionResult Login(UserLoginModel user)
         {
           if (user != null && user.Email == "admin" && user.Password == "admin")
               return Ok(new { response = "OK" });
           else
               return Unauthorized(new { response = "Failed" });
+        }
+
+        [HttpPost("create")]
+        public IActionResult Create(UserModel user)
+        {
+          if (user != null)
+                return Ok(new { response = "OK" });
+            else
+                return BadRequest(new { response = "Failed"});
         }
     }
 }

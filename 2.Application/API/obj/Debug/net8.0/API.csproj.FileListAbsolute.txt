@@ -39,3 +39,4 @@
 /home/hildelio/projetosPessoais/SquadManager/2.Application/API/obj/Debug/net8.0/ref/API.dll
 /home/hildelio/projetosPessoais/SquadManager/2.Application/API/bin/Debug/net8.0/API.xml
 /home/hildelio/projetosPessoais/SquadManager/2.Application/API/obj/Debug/net8.0/API.xml
+/home/hildelio/projetosPessoais/SquadManager/2.Application/API/obj/Debug/net8.0/API.sourcelink.json
