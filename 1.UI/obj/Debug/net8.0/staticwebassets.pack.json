@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/forgotPassword.js",
+      "PackagePath": "staticwebassets/js/forgotPassword.js"
+    },
+    {
       "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/login.js",
       "PackagePath": "staticwebassets/js/login.js"
     },

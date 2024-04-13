@@ -8,14 +8,21 @@
             <summary>
             Autentica o usuário
             </summary>
-            <param name="user">Email e Senha do usuário</param>
+            <param name="user">Email e Senha do Usuário</param>
             <returns></returns>
         </member>
         <member name="M:API.Controllers.UserController.Create(Common.UserModel)">
             <summary>
             Cria um novo usuário
             </summary>
-            <param name="user">Nome, Email, Senha e  Confirmação de Senha do Usuário</param>
+            <param name="user">Nome, Email, Senha e Confirmação de Senha do Usuário</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserController.ForgotPassword(Common.UserForgotPasswordModel)">
+            <summary>
+            Recupera a senha do usuário
+            </summary>
+            <param name="user">Email do Usuário</param>
             <returns></returns>
         </member>
     </members>

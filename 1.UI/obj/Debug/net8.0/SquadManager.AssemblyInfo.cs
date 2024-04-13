@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SquadManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef3c568b915081f5acad50865c08d1e5da3ddc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b27c60183899718de814579bbe08e12276f53274")]
 [assembly: System.Reflection.AssemblyProductAttribute("SquadManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SquadManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
