@@ -40,3 +40,6 @@
 /home/hildelio/projetosPessoais/SquadManager/2.Application/API/bin/Debug/net8.0/API.xml
 /home/hildelio/projetosPessoais/SquadManager/2.Application/API/obj/Debug/net8.0/API.xml
 /home/hildelio/projetosPessoais/SquadManager/2.Application/API/obj/Debug/net8.0/API.sourcelink.json
+/home/hildelio/projetosPessoais/SquadManager/2.Application/API/bin/Debug/net8.0/FluentValidation.dll
+/home/hildelio/projetosPessoais/SquadManager/2.Application/API/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/home/hildelio/projetosPessoais/SquadManager/2.Application/API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll

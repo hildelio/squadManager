@@ -11,5 +11,12 @@
             <param name="user">Email e Senha do usuário</param>
             <returns></returns>
         </member>
+        <member name="M:API.Controllers.UserController.Create(Common.UserModel)">
+            <summary>
+            Cria um novo usuário
+            </summary>
+            <param name="user">Nome, Email, Senha e  Confirmação de Senha do Usuário</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

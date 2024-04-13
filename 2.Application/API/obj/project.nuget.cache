@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qV2kzWc1R9dsN6DppF0Nna141ThV2wNbFuu1QnUmUex4tPyOi3DXJ3Y4A0glfPu0via/WN6xJKHm0nmM6c1Ohg==",
+  "dgSpecHash": "WtIZpeUrO5PkUiCOYJPIUsN0APukhZNnHOzcx51ezi/wDVd1yaWoXQFPGdIY9Gn/wZ6XOG8MKimdsXie0U931w==",
   "success": true,
   "projectFilePath": "/home/hildelio/projetosPessoais/SquadManager/2.Application/API/API.csproj",
   "expectedPackageFiles": [
+    "/home/hildelio/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/home/hildelio/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/home/hildelio/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/home/hildelio/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
     "/home/hildelio/.nuget/packages/microsoft.entityframeworkcore/8.0.4/microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "/home/hildelio/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.4/microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",

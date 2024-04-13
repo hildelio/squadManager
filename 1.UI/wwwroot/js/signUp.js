@@ -2,6 +2,16 @@ $('form').on('submit', function(e) {
   
   e.preventDefault();
 
+  if($("#senha").val().length < 6) {
+    alert("A senha deve ter no mínimo 6 caracteres!");
+    return;
+  }
+
+  if ($("#senha").val() !== $("#confirma-senha").val()) {
+    alert("As senhas não conferem!");
+    return;
+  }
+
   var formData = {
     username: $("#username").val(),
     email: $("#email").val(),
