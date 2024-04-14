@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Common;
+using Repository.Entity;
 
 
 namespace API.Context
@@ -13,6 +13,6 @@ namespace API.Context
             optionsBuilder.UseSqlServer(connectionString);
         }
 
-        public DbSet<UserDBModel> Users { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
     }
 }
