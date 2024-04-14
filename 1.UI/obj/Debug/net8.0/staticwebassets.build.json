@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZzWhby4FtvJOQSzYya+I9ns8z8nUXPp36dhwNp6WC88=",
+  "Hash": "kPm1WXu33r4JZ88QNzCFBoS+2Ans1ypNQQ3PqI5IuJU=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -141,6 +141,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/login.js"
+    },
+    {
+      "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/resetPassword.js",
+      "SourceId": "SquadManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/",
+      "BasePath": "_content/SquadManager",
+      "RelativePath": "js/resetPassword.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/resetPassword.js"
     },
     {
       "Identity": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/signUp.js",

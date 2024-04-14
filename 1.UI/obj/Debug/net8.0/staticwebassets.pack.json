@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/js/login.js"
     },
     {
+      "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/resetPassword.js",
+      "PackagePath": "staticwebassets/js/resetPassword.js"
+    },
+    {
       "Id": "/home/hildelio/projetosPessoais/SquadManager/1.UI/wwwroot/js/signUp.js",
       "PackagePath": "staticwebassets/js/signUp.js"
     },

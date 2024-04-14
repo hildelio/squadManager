@@ -44,5 +44,10 @@ namespace SquadManager.Controllers
     {
       return View();
     }
+
+    public IActionResult ResetPassword()
+    {
+      return View();
+    }
   }
 }

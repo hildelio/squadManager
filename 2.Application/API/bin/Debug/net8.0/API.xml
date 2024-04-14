@@ -25,5 +25,12 @@
             <param name="user">Email do Usuário</param>
             <returns></returns>
         </member>
+        <member name="M:API.Controllers.UserController.ResetPassword(Common.UserResetPasswordModel)">
+            <summary>
+            Reseta a senha do usuário
+            </summary>
+            <param name="user">Senha e Confirmação de Senha do Usuário</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

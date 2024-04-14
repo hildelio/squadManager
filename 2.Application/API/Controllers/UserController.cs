@@ -75,5 +75,27 @@ namespace API.Controllers
             else
                 return BadRequest(new { response = "Failed" });
         }
+        
+        /// <summary>
+        /// Reseta a senha do usuário
+        /// </summary>
+        /// <param name="user">Senha e Confirmação de Senha do Usuário</param>
+        /// <returns></returns>
+        [HttpPost("reset-password")]
+        public IActionResult ResetPassword(UserResetPasswordModel user)
+        {
+            UserResetPasswordValidator validator = new UserResetPasswordValidator();
+            ValidationResult results = validator.Validate(user);
+
+            if (!results.IsValid)
+            {
+                return BadRequest(new { response = "Failed", errors = results.Errors });
+            }
+
+            if (user != null)
+                return Ok(new { response = "OK" });
+            else
+                return BadRequest(new { response = "Failed" });
+        }
     }
 }
