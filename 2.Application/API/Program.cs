@@ -1,10 +1,15 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
 using System.IO;
 using System.Reflection;
+using Repository.Context;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +41,15 @@ builder.Services.AddSwaggerGen(options =>
     options.IncludeXmlComments(xmlPath);
 });
 
+// String de conexão diretamente aqui
+var connectionString = "Server=localhost,1433;Database=squadmanagerdb;User Id=sa;Password=MinhaSenha@123;TrustServerCertificate=true;";
+
+// Adiciona o DbContext como um serviço, configurado para usar o SQL Server
+builder.Services.AddDbContext<EFContext>(options =>
+{
+    options.UseSqlServer(connectionString);
+});
+
 builder.Services.AddControllers();
 
 var app = builder.Build();
@@ -64,9 +78,7 @@ app.UseHttpsRedirection();
 // Habilita o roteamento de requisições
 app.UseRouting();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers(); // Mapear os endpoints dos controllers
-});
+app.MapControllers();
+
 
 app.Run();

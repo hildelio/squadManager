@@ -1673,7 +1673,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
         },
         "compile": {
           "bin/placeholder/Repository.dll": {}
@@ -4810,7 +4811,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/hildelio/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
