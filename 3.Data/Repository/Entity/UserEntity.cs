@@ -5,7 +5,7 @@ namespace Repository.Entity;
 
 public class UserEntity
 {
-    public string Id { get; set; }
+    public int Id { get; set; }
 
     public string? Type { get; set; }
 
@@ -14,7 +14,7 @@ public class UserEntity
     public string? Password { get; set; }
 
     [ForeignKey("Person")]
-    public string PersonId { get; set; }
+    public int PersonId { get; set; }
 
     public PersonEntity Person { get; set; }
 }

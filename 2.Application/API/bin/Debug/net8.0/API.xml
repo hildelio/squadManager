@@ -68,5 +68,14 @@
         <member name="M:API.Migrations.AddPersonFK.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:API.Migrations.AlterStringToInt">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AlterStringToInt.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AlterStringToInt.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

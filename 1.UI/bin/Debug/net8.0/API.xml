@@ -32,5 +32,50 @@
             <param name="user">Senha e Confirmação de Senha do Usuário</param>
             <returns></returns>
         </member>
+        <member name="T:API.Migrations.UserDatabaseMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.UserDatabaseMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.UserDatabaseMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:API.Migrations.RemoveConfirmPassword">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.RemoveConfirmPassword.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.RemoveConfirmPassword.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:API.Migrations.AddPersonEntity">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonEntity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonEntity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:API.Migrations.AddPersonFK">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonFK.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AddPersonFK.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:API.Migrations.AlterStringToInt">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AlterStringToInt.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API.Migrations.AlterStringToInt.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

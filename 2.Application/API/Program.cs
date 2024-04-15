@@ -1,3 +1,4 @@
+using API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -9,12 +10,15 @@ using System;
 using System.IO;
 using System.Reflection;
 using Repository.Context;
-
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Adiciona serviços ao contêiner de injeção de dependência.
-// Saiba mais sobre como configurar o Swagger/OpenAPI em https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<UserRepository>(); // Registra a UserRepository como um serviço de escopo
+builder.Services.AddScoped<UserService>();   // Registra o UserService como um serviço de escopo
+
+// Configuração do Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -35,6 +39,7 @@ builder.Services.AddSwaggerGen(options =>
             Url = new Uri("https://example.com/license")
         }
     });
+
     // Configuração para incluir os comentários XML da documentação
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -47,7 +52,7 @@ var connectionString = "Server=localhost,1433;Database=squadmanagerdb;User Id=sa
 // Adiciona o DbContext como um serviço, configurado para usar o SQL Server
 builder.Services.AddDbContext<EFContext>(options =>
 {
-    options.UseSqlServer(connectionString);
+    options.UseSqlServer(connectionString, b => b.MigrationsAssembly("API"));
 });
 
 builder.Services.AddControllers();
@@ -78,7 +83,7 @@ app.UseHttpsRedirection();
 // Habilita o roteamento de requisições
 app.UseRouting();
 
+// Mapeia os controllers
 app.MapControllers();
-
 
 app.Run();
