@@ -1,4 +1,5 @@
 using API.Validator;
+using API.Services;
 using Microsoft.AspNetCore.Mvc;
 using FluentValidation.Results;
 using Common;
@@ -9,6 +10,14 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
+        private readonly PersonService _personService;
+        private readonly UserService _userService;
+
+        public UserController(PersonService personService, UserService userService)
+        {
+            _personService = personService;
+            _userService = userService;
+        }
 
         /// <summary>
         /// Autentica o usuário
@@ -27,9 +36,13 @@ namespace API.Controllers
             }
 
             if (user != null && user.Email == "admin" && user.Password == "admin")
+            {
                 return Ok(new { response = "OK" });
+            }
             else
+            {
                 return Unauthorized(new { response = "Failed" });
+            }                
         }
 
         /// <summary>
@@ -37,6 +50,7 @@ namespace API.Controllers
         /// </summary>
         /// <param name="user">Nome, Email, Senha e Confirmação de Senha do Usuário</param>
         /// <returns></returns>
+        
         [HttpPost("create")]
         public IActionResult Create(UserModel user)
         {
@@ -48,10 +62,19 @@ namespace API.Controllers
                 return BadRequest(new { response = "Failed", errors = results.Errors });
             }
 
-            if (user != null)
-                return Ok(new { response = "OK" });
-            else
-                return BadRequest(new { response = "Failed" });
+            var personId = _personService.AddPerson(new PersonModel()
+            {
+                Username = user.Person.Username,
+                Email = user.Person.Email
+            });
+
+            _userService.AddUser(new UserModel()
+            {
+                PersonId = personId,
+                Password = user.Password
+            });   
+
+            return Ok(new { response = "OK" });
         }
         
         /// <summary>
@@ -71,9 +94,13 @@ namespace API.Controllers
             }
 
             if (user != null)
+            {
                 return Ok(new { response = "OK" });
+            }
             else
+            {
                 return BadRequest(new { response = "Failed" });
+            }                
         }
         
         /// <summary>
@@ -93,9 +120,13 @@ namespace API.Controllers
             }
 
             if (user != null)
+            {
                 return Ok(new { response = "OK" });
+            }
             else
+            {
                 return BadRequest(new { response = "Failed" });
+            }                
         }
     }
 }

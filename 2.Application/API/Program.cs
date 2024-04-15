@@ -16,7 +16,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Adiciona serviços ao contêiner de injeção de dependência.
 builder.Services.AddScoped<UserRepository>(); // Registra a UserRepository como um serviço de escopo
+builder.Services.AddScoped<PersonRepository>(); // Registra a PersonRepository como um serviço de escopo
 builder.Services.AddScoped<UserService>();   // Registra o UserService como um serviço de escopo
+builder.Services.AddScoped<PersonService>(); // Registra o PersonService como um serviço de escopo
 
 // Configuração do Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
